@@ -13,7 +13,7 @@ This bash script automates the installation of PHP 8, MariaDB, and Apache, provi
 
 ## Requirements
 
-- Unix-like system (Linux, macOS).
+- Linux Debian or Ubuntu.
 - Administrative privileges.
 
 ## Contributing
