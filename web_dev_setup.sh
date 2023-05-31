@@ -23,13 +23,13 @@ a2enmod ssl
 
 # Generate a self-signed SSL certificate
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/localhost.key -out /etc/ssl/certs/localhost.crt <<EOF
-ID
-East Java
-Malang
-Nano ERP
-Developer
+US
+California
+San Francisco
+My Company
+IT Department
 localhost
-giant.r.j@gmail.com
+myemail@localhost.com
 EOF
 
 # Create Apache virtual host configuration for HTTPS
